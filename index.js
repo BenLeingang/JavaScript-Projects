@@ -1,0 +1,13 @@
+var itemPrice = 5;
+var amountOfMoneyInWallet = 10;
+var ageInYears = 18;
+var numberOfFriends = 7;
+var firstName = "Benjamin ";
+var lastName = "Leingang";
+var middleInitial = "W ";
+var moneyInWalletAfterBuying = amountOfMoneyInWallet - itemPrice;
+console.log(moneyInWalletAfterBuying);
+var numberOfFriendsEachYear = ageInYears / numberOfFriends;
+console.log(numberOfFriendsEachYear);
+var fullName = firstName + middleInitial + lastName;
+console.log(fullName);
